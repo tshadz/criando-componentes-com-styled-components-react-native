@@ -1,0 +1,5 @@
+react native, styled-components, componentes
+
+template-criando-componentes-com-styled-components-react-native
+
+npx react-native init Stylert --template react-native-template-typescript
