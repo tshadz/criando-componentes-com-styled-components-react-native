@@ -11,7 +11,10 @@ const App = () => {
       <SafeAreaView style={{ flex: 1, backgroundColor: '#F3F3F3' }}>
         <View>
           <ThemeProvider theme={stylertTheme}>
-            <Card />
+            <Card amount="R$ 100,00" status="PAGO" />
+            <Card amount="R$ 100,00" status="EM_ABERTO" />
+            <Card amount="R$ 100,00" status="EM_ATRASO" />
+            <Card amount="R$ 100,00" status="REVERTIDO" />
           </ThemeProvider>
         </View>
       </SafeAreaView>
