@@ -2,6 +2,12 @@
 
 ## Motivação
 
+Reaproveitamento de código, organização centralizada, manutenção.
+
+## Desafio
+
+<img src=".github/imgs/Stylert-v1.png" />
+
 ## Construção do código
 
 Criação do Container
@@ -215,6 +221,8 @@ export const Description =
 ```
 
 ### Solicitando alterações
+
+<img src=".github/imgs/Stylert-v2.png" />
 
 ```jsx
 // src/components/Card/index.tsx
