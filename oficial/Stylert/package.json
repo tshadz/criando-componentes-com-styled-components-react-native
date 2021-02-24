@@ -27,7 +27,8 @@
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@types/styled-components-react-native": "^5.1.1"
   },
   "resolutions": {
     "@types/react": "^16"
