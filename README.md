@@ -1,6 +1,95 @@
 # criando-componentes-com-styled-components-react-native
 
-## Motivação
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
+
+## Expert
+
+| [<img src="https://avatars.githubusercontent.com/u/6079947?s=460&u=d7af98379f7769fc782b4e99d86a205c44e57f79&v=4" width="75px;"/>](https://github.com/hstrada) |
+| :-: |
+|[Helena Strada](https://github.com/hstrada)|
+
+# Index
+
+- :rocket: [Sumário](#rocket-sumario)
+- 👨‍💻️ [Tecnologias Utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
+- 📦️ [Como Clonar e Rodar o Projeto](#%EF%B8%8F-como-clonar-e-rodar-o-projeto)
+- [Desenvolvimento da Solução](desenvolvimento-da-solucao)
+
+---
+
+## :rocket: Sumário
+
+Criar componentes no React Native é uma tarefa diária!
+
+Nesse vídeo vamos utilizar o Styled-Components para criar nossos componentes utilizando props de maneira dinâmica, reutilizáveis e centralizadas para facilitar o desenvolvimento e manutenção do ciclo de vida da sua aplicação.
+
+---
+## 👨‍💻️ Tecnologias Utilizadas
+
+This project was developed using the technologies bellow:
+  
+### Mobile
+
+  - [React Native](https://reactnative.dev/)
+  
+### Dependencies
+
+  - [Typescript](https://www.typescriptlang.org/)
+  - [Styled Components](https://styled-components.com/)
+  
+### IDE
+
+  - [Visual Studio Code](https://code.visualstudio.com/)
+
+---
+ 
+## 📦️ Como Clonar e Rodar o Projeto
+
+> [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) are required
+
+To clone the project, use the commands bellow:
+
+```bash
+  # Clone the repository
+  ❯ git clone https://github.com/rocketseat-experts-club/criando-componentes-styled-components-react-native-2021-02-27.git
+
+  # Enter directory
+  ❯ cd criando-componentes-styled-components-react-native-2021-02-27
+```
+
+### Mobile
+
+**Emulate in IOS**
+
+```bash
+  # Enter mobile directory
+  > cd template/Stylert
+
+  # Install the dependencies
+  ❯ yarn
+
+  # Install the IOS dependencies
+  ❯ npx pod-install ios
+  
+  # Install and start the project
+  ❯ yarn ios
+```
+
+**Emulate in Android**
+
+```bash
+  # Enter mobile directory
+  > cd template/Stylert
+
+  # Install the dependencies
+  ❯ yarn
+  
+  # Install and start the project
+  ❯ yarn android
+```
+---
+ 
+## Desenvolvimento da Solução
 
 Reaproveitamento de código, organização centralizada, manutenção.
 
