@@ -13,7 +13,7 @@
 - :rocket: [Sumário](#rocket-sumário)
 - 👨‍💻️ [Tecnologias Utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
 - 📦️ [Como Clonar e Rodar o Projeto](#%EF%B8%8F-como-clonar-e-rodar-o-projeto)
-- :purple_heart: [Desenvolvimento da Solução](#desenvolvimento-da-solução)
+- :purple_heart: [Desenvolvimento da Solução](#purple_heart-desenvolvimento-da-solução)
 
 ---
 
