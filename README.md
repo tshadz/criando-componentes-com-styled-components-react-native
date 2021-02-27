@@ -22,10 +22,10 @@ export const Container = styled.View`
   padding: 14px;
   margin: 24px;
   border-radius: 4px;
-  background-color: ${({ theme }) => theme.colors["neutral-100"]};
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: ${({ theme }) => theme.colors["neutral-100"]};
 `;
 ```
 
