@@ -62,34 +62,34 @@ To clone the project, use the commands bellow:
 **Emulate in IOS**
 
 ```bash
-  # Enter mobile directory
+  # Entre na pasta do diretório
   > cd template/Stylert
 
-  # Install the dependencies
+  # Instale as dependências
   ❯ yarn
 
-  # Install the IOS dependencies
+  # Instale as referências do iOS
   ❯ npx pod-install ios
   
-  # Install and start the project
+  # Inicie o projeto
   ❯ yarn ios
 ```
 
-**Emulate in Android**
+**Android**
 
 ```bash
-  # Enter mobile directory
+  # Entre na pasta do diretório
   > cd template/Stylert
 
-  # Install the dependencies
+  # Instale as dependências
   ❯ yarn
   
-  # Install and start the project
+  # Inicie o projeto
   ❯ yarn android
 ```
 ---
  
-## Desenvolvimento da Solução
+## :purple_heart: Desenvolvimento da Solução
 
 Reaproveitamento de código, organização centralizada, manutenção.
 
