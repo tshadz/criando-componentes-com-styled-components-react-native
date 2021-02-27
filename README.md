@@ -26,7 +26,7 @@ Nesse vídeo vamos utilizar o Styled-Components para criar nossos componentes ut
 ---
 ## 👨‍💻️ Tecnologias Utilizadas
 
-This project was developed using the technologies bellow:
+Esse projeto foi construído utilizando as seguintes tecnologias:
   
 ### Mobile
 
@@ -47,19 +47,19 @@ This project was developed using the technologies bellow:
 
 > [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) are required
 
-To clone the project, use the commands bellow:
+Para clonar o projeto, utilize os comandos:
 
 ```bash
-  # Clone the repository
+  # Clonar o repositório
   ❯ git clone https://github.com/rocketseat-experts-club/criando-componentes-styled-components-react-native-2021-02-27.git
 
-  # Enter directory
+  # Acessar o repositório
   ❯ cd criando-componentes-styled-components-react-native-2021-02-27
 ```
 
 ### Mobile
 
-**Emulate in IOS**
+**IOS**
 
 ```bash
   # Entre na pasta do diretório
