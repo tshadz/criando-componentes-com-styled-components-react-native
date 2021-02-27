@@ -108,9 +108,14 @@ export const Description = styled.Text`
 ```ts
 // src/components/Card/interface.ts
 
+export enum CardStatus {
+  PAGO = "pago",
+  EM_ABERTO = "em aberto",
+}
+
 export interface ICardProps {
   amount: string;
-  status: "em aberto" | "pago";
+  status: keyof typeof CardStatus;
 }
 ```
 
@@ -128,7 +133,7 @@ const Card = ({ amount, status }: ICardProps) => {
   return (
     <Container>
       <Label>{amount}</Label>
-      <Description>{status}</Description>
+      <Description>{CardStatus[status]}</Description>
     </Container>
   );
 };
@@ -140,35 +145,6 @@ export default Card;
 
 ```jsx
 // src/components/App.tsx
-
-<Card amount="R$ 100,00" status="pago" />
-```
-
-### Melhorando a interface
-
-```ts
-// src/components/Card/interface.ts
-
-export enum CardStatus {
-  PAGO = "pago",
-  EM_ABERTO = "em aberto",
-}
-
-export interface ICardProps {
-  amount: string;
-  status: keyof typeof CardStatus;
-}
-```
-
-```jsx
-// src/components/Card/index.tsx
-import { ICardProps, CardStatus } from "./interface";
-
-<Description>{CardStatus[status]}</Description>;
-```
-
-```jsx
-// src/App.tsx
 
 <Card amount="R$ 100,00" status="PAGO" />
 ```
