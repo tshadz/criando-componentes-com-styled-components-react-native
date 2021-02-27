@@ -10,7 +10,7 @@
 
 # Index
 
-- :rocket: [Sumário](#rocket-sumario)
+- :rocket: [Sumário](#rocket-sumário)
 - 👨‍💻️ [Tecnologias Utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
 - 📦️ [Como Clonar e Rodar o Projeto](#%EF%B8%8F-como-clonar-e-rodar-o-projeto)
 - [Desenvolvimento da Solução](desenvolvimento-da-solucao)
